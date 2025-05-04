@@ -4,10 +4,9 @@ terraform {
     organization = "U_trains"
 
     workspaces {
-      name = "terraform-cloud-ec2"
+      name = "demo-repository"
     }
   }
-
   required_providers {
     aws = {
       source  = "hashicorp/aws"
