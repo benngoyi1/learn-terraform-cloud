@@ -1,7 +1,7 @@
 terraform {
 
   cloud {
-    organization = "hermann_company"
+    organization = "U_trains"
 
     workspaces {
       name = "terraform-cloud-ec2"
